@@ -9,9 +9,13 @@ de no ser igual se debe informar si “falta…”  para llegar al número secre
 */
 var numeroSecreto; 
 var contadorIntentos;
+var cont
 
 function comenzar()
 {
+  numeroSecreto=Math.floor(Math.random(101-1))+1;
+  contadorIntentos=0
+  cont=contadorIntentos+1 
 	//Genero el número RANDOM entre 1 y 100
 	 
 		//alert(numeroSecreto );
