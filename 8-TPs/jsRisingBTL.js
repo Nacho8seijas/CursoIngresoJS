@@ -9,9 +9,30 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
-    var edad
-    edad = prompt("Ingrese su edad");
-    {if(edad>=18 && edad<=80);
-    document.getElementById("Edad").value=edad }
+    var edad;
+    var Sexo;
+    var contMasculino=0;
+    var contFemenino=0;
+
+    sexo=prompt("ingrese su sexo M/F");
+    edad=prompt("ingrese su edad");
+
+    while(sexo ==M || sexo ==F  )
+    {
+        if(sexo = M)
+        {
+            
+        }
+    
+    
+
+    }
+       
+    
+
+
+    
  
 }
+document.write("sexo: " + sexo);
+document.write("edad" + edad);
