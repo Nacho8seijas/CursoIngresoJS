@@ -47,7 +47,7 @@ function mostrar()
     document.write("Mayores"+ contMayores);
     document.write("")
     document.write("sexo");
-
+//for(var cont;<10;++) 
     
     
     
