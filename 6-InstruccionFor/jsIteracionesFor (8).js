@@ -1,20 +1,22 @@
 function mostrar()
  {
     var numero;
-    var i;
     var contPrimos=0;
     i=parseInt(i);
     numero=prompt("Ingrese un numero");
     numero=parseInt(numero);
-    for(i=2;i<numero;i++)
+    for(var i=2;i<numero;i++)
     if(numero%i==0)
     {
-        alert("No Es primo");
-        break;
+
     }else{
-        alert(" es primo");
-        break;
-    }
+        for(var i=1;i<numero;i++)
+        if(numero--%numero--==0 && numero%i==0)
+        {
+        contPrimos++
+        }
+        }
+    alert(" Primos " + contPrimos);
     
 
 

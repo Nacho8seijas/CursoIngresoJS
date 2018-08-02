@@ -1,22 +1,12 @@
 function mostrar()
 {
-	alert('iteración while');
-	var i
-	i=0
-	parseInt(i)
-	while(i)
+	var i=0
+	while(i<10)
 	{
-		i++;
-		alert(i);
+	i++
+	alert('iteración while'+ i);
 	}
 	
-
-
-
-	
-
-		
-	}
 
 
 }//FIN DE LA FUNCIÓN
