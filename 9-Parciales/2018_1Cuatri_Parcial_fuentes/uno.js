@@ -5,7 +5,7 @@ function mostrar()
     var base = prompt("Ingrese la base");
 
     var altura = prompt("Ingrese la altura");
-    superficie=(altura*base)/2
+    superficie=(altura*base)
     alert("area"+ superficie);
 
 
